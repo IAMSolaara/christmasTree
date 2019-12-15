@@ -29,9 +29,11 @@
         <artifactId>maven-jar-plugin</artifactId>
         <version>3.2.0</version>
         <configuration>
+		<archive>
           <manifest>
             <mainClass>com.mentalabs.christmasTree.Test</mainClass>
-          </manifest>
+    </manifest>
+    </archive>
         </configuration>
       </plugin>
     </plugins>
